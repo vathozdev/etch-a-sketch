@@ -1,3 +1,5 @@
+const container = document.querySelector(".container");
+
 function createGrid(size) {
     let squareNumber = ( size * size );
     for (let i = 0; i < squareNumber; i++) {
