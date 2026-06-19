@@ -8,4 +8,10 @@ function createGrid(size) {
         container.appendChild(newDiv);
     }
 }
-createGrid();
+container.addEventListener("mouseover", (event) => {
+    if(event.target.matches(".square")) {
+        event.target.style.backgroundColor = "black"
+;    }
+}
+
+)
