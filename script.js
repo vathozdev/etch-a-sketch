@@ -9,9 +9,7 @@ function createGrid(size) {
     }
 }
 container.addEventListener("mouseover", (event) => {
-    if(event.target.matches(".square")) {
-        event.target.style.backgroundColor = "black"
-;    }
-}
-
-)
+  if (event.target.matches(".square")) {
+    event.target.style.backgroundColor = "black";
+  }
+});
