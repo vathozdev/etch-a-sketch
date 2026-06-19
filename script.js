@@ -8,3 +8,4 @@ function createGrid(size) {
         container.appendChild(newDiv);
     }
 }
+createGrid();
