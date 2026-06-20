@@ -33,7 +33,8 @@ newBoardBtn.addEventListener("click", () => {
   if (
     gridAmount === null ||
     Number(gridAmount) > 100 ||
-    !Number(gridAmount)
+    !Number(gridAmount) ||
+    gridAmount < 0
   ) {
     return;
 }
