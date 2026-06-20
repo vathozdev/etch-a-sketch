@@ -10,6 +10,13 @@ body {
     align-items: flex-start;
     min-height: 100vh;
     margin: 0;
+    background-image: url(images/bgchild.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
 }
 .container {
     display: flex;
