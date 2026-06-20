@@ -91,3 +91,31 @@ h1 {
     transform: rotate(-2deg);
     margin: 10px 0;
 }
+.deletion {
+    margin: 30px 15px;
+    padding: 18px 26px;
+    font-size: 16px;
+    background: #ff6b6b;
+    border-radius: 16px;
+    font-family: "Comic Sans MS", "Comic Neue", cursive;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2px;
+    transform: rotate(2deg);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #cc4c4c;
+    transition: all 0.15s ease;
+}   
+
+
+.deletion:hover {
+    transform: rotate(2deg) scale(1.05);
+    background: #ff7b7b;
+}
+
+.deletion:active {
+    transform: rotate(2deg) scale(0.98);
+    box-shadow: 0 3px 0 #cc4c4c;
+}
