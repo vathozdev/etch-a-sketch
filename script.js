@@ -1,4 +1,8 @@
 const container = document.querySelector(".container");
+const deleteBtn = document.createElement("button");
+deleteBtn.classList.add("deletion");
+deleteBtn.textContent = "Clean it!";
+document.body.appendChild(deleteBtn);
 
 function createGrid(size) {
     const container = document.querySelector(".container")
