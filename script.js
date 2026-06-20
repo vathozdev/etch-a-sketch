@@ -12,10 +12,24 @@ function createGrid(size) {
         container.appendChild(newDiv);
     }
 }
-container.addEventListener("mouseover", (event) => {
+let isDrawing = false;
+
+container.addEventListener("mousedown", (event) => {
+
   if (event.target.matches(".square")) {
+    isDrawing = true;
     event.target.style.backgroundColor = "black";
   }
+});
+
+container.addEventListener("mouseover", (event) => {
+  if (event.target.matches(".square") && isDrawing === true) {
+    event.target.style.backgroundColor = "black";
+  }
+
+});
+container.addEventListener("mouseup", () => {
+  isDrawing = false;
 });
 function clearGrid() {
   const createdDivs = container.querySelectorAll(".square");
