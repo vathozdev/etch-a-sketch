@@ -33,8 +33,14 @@ button {
     padding: 20px 28px;
     font-size: 16px;
     background: #1e90ff;
-    color: #ffffff;
     border-radius: 16px;
+    font-family: "Comic Sans MS", "Comic Neue", cursive;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #e3a623;
+    letter-spacing: 2px;
+    transform: rotate(-4deg)
 
 }
 .wrapper {
@@ -43,4 +49,16 @@ button {
     align-items: center;
     margin: auto;
 }
-
+h1 {
+    font-family: "Comic Sans MS", "Comic Neue", cursive;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: #e3a623;
+    text-shadow: 
+    2px 2px 0 #f1faee,
+    4px 4px 0 #a8dadc;
+    letter-spacing: 2px;
+    transform: rotate(-2deg);
+    margin: 10px 0;
+}
