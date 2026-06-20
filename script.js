@@ -13,3 +13,7 @@ container.addEventListener("mouseover", (event) => {
     event.target.style.backgroundColor = "black";
   }
 });
+function clearGrid() {
+  const createdDivs = container.querySelectorAll(".square");
+
+}
