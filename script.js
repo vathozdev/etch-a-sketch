@@ -7,6 +7,8 @@ function createGrid(size) {
     for (let i = 0; i < squareNumber; i++) {
         const newDiv = document.createElement("div");
         newDiv.classList.add("square");
+          newDiv.style.width = `${fixedSize}px`;
+          newDiv.style.height = `${fixedSize}px`;
         container.appendChild(newDiv);
     }
 }
