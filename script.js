@@ -60,6 +60,13 @@ newBoardBtn.addEventListener("click", () => {
   createGrid(Number(gridAmount));
 })
 
+function clearColor() {
+  const createdDivs = container.querySelectorAll(".square");
+  createdDivs.forEach(div => {
+  div.style.backgroundColor = "#fefefe"; 
+});
+  return createdDivs;
+}
 deleteBtn.addEventListener("click", () => {
-  clearGrid();
+  clearColor();
 })
