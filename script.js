@@ -21,6 +21,7 @@ function clearGrid() {
 }
 const newBoardBtn = document.createElement("button");
 document.body.appendChild(newBoardBtn);
+newBoardBtn.textContent = "New Sketch Board"
 
 newBoardBtn.addEventListener("click", () => {
   const gridAmount = prompt("Select board size (max 100)");
