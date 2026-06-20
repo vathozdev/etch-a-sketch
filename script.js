@@ -29,7 +29,7 @@ container.addEventListener("mouseover", (event) => {
   }
 
 });
-body.container.addEventListener("mouseup", () => {
+document.body.addEventListener("mouseup", () => {
   isDrawing = false;
 });
 function clearGrid() {
