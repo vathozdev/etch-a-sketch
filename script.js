@@ -21,6 +21,11 @@ function clearGrid() {
 }
 newBoardBtn.addEventListener("click", () => {
   const gridAmount = prompt("Select board size (max 100)");
-
-
+  if (
+    gridAmount === null ||
+    Number(gridAmount) > 100 ||
+    !Number(gridAmount)
+  ) {
+    return;
+}
 })
