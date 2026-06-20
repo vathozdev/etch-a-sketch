@@ -41,8 +41,20 @@ button {
     color: #e3a623;
     letter-spacing: 2px;
     transform: rotate(-4deg)
-
 }
+button {
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: rotate(-4deg) translateY(0);
+    }
+    50% {
+        transform: rotate(-4deg) translateY(-6px);
+    }
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
