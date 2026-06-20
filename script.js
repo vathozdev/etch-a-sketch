@@ -1,6 +1,8 @@
 const container = document.querySelector(".container");
 
 function createGrid(size) {
+    const container = document.querySelector(".container")
+    const fixedSize = container.clientWidth / size;
     let squareNumber = ( size * size );
     for (let i = 0; i < squareNumber; i++) {
         const newDiv = document.createElement("div");
