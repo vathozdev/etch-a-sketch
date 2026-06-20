@@ -1,4 +1,5 @@
 const container = document.querySelector(".container");
+const parent = document.body;
 
 function createGrid(size) {
     const container = document.querySelector(".container")
@@ -28,7 +29,7 @@ container.addEventListener("mouseover", (event) => {
   }
 
 });
-container.addEventListener("mouseup", () => {
+body.container.addEventListener("mouseup", () => {
   isDrawing = false;
 });
 function clearGrid() {
