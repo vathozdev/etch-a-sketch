@@ -15,9 +15,10 @@ container.addEventListener("mouseover", (event) => {
 });
 function clearGrid() {
   const createdDivs = container.querySelectorAll(".square");
-  createdDivs.forEach(div => {
+  const removedDivs = createdDivs.forEach(div => {
     div.remove();
   });
+  return removedDivs;
 }
 const newBoardBtn = document.createElement("button");
 document.body.appendChild(newBoardBtn);
