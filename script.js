@@ -19,6 +19,9 @@ function clearGrid() {
     div.remove();
   });
 }
+const newBoardBtn = document.createElement("button");
+document.body.appendChild(newBoardBtn);
+
 newBoardBtn.addEventListener("click", () => {
   const gridAmount = prompt("Select board size (max 100)");
   if (

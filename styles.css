@@ -13,6 +13,7 @@ body {
     display: flex;
     margin: 0;
     flex-wrap: wrap;
+    width: 600px;
 }
 .square {
     flex: 1 1 0;
