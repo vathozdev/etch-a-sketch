@@ -65,7 +65,7 @@ function clearColor() {
   createdDivs.forEach(div => {
   div.style.backgroundColor = "#fefefe"; 
 });
-  return createdDivs;
+
 }
 deleteBtn.addEventListener("click", () => {
   clearColor();
