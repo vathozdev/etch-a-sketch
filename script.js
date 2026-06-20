@@ -28,4 +28,6 @@ newBoardBtn.addEventListener("click", () => {
   ) {
     return;
 }
+  clearGrid();
+  createGrid(Number(gridAmount));
 })
