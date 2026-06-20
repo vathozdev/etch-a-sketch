@@ -15,5 +15,7 @@ container.addEventListener("mouseover", (event) => {
 });
 function clearGrid() {
   const createdDivs = container.querySelectorAll(".square");
-
+  createdDivs.forEach(div => {
+    div.remove();
+  });
 }
